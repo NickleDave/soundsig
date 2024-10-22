@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "soundsig"
+description = "Sound and Signal Analysis Tools for Bioacousticians and Auditory Neurophysiologists"
+version = "2.1"
+authors = [{name = "frederic Theunissen", email = "theunissen@berkeley.edu"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires-python = ">=3.10"
+dependencies = [
+    'numpy>=2.0.2',
+    'scipy>=1.14.1',
+    'matplotlib>=3.9.2',
+    'h5py>=3.12.1',
+    'librosa>=0.10.2.post1',
+    'mne>=1.8.0',
+    'nitime>=0.11',
+    'numba>=0.60.0',
+    'pandas>=2.2.3',
+    'scikit-learn>=1.5.2',
+]
+
+[project.urls]
+Home = "https://github.com/theunissenlab/soundsig"
