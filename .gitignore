@@ -89,3 +89,7 @@ ENV/
 .ropeproject
 
 *.pyc
+
+# pixi environments
+.pixi
+*.egg-info
