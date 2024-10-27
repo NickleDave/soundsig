@@ -9,7 +9,12 @@ version = "2.1"
 authors = [{name = "frederic Theunissen", email = "theunissen@berkeley.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
-classifiers = ["License :: OSI Approved :: MIT License"]
+keywords = ['bioacoustics' ,'biosound', 'vocalization', 'auditory']
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.0"
+]
 requires-python = ">=3.10, <3.12"
 dependencies = [
     'numpy>=2.0.2',
