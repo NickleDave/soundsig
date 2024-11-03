@@ -93,3 +93,6 @@ ENV/
 # pixi environments
 .pixi
 *.egg-info
+
+data-for-tests/
+generated-test-data/
