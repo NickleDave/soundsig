@@ -53,10 +53,11 @@ for wav_path in wav_paths:
         "q1": biosound.q1,
         "q2": biosound.q2,
         "q3": biosound.q3,
-        # fundamental
+        # note that returning np.nan when we can't compute `fund` and `fund2` attributes is what `vocalpy.feature.soundsig` does
         "mean_f0": biosound.fund if not np.array_equal(biosound.fund, np.array([])) else np.nan,
         "mean_sal": biosound.meansal,
         "second_v": biosound.voice2percent,
+        # note that returning np.nan when we can't compute `fund` and `fund2` attributes is what `vocalpy.feature.soundsig` does
         "pk2": biosound.fund2 if not np.array_equal(biosound.fund2, np.array([])) else np.nan,
         "max_fund": biosound.maxfund,
         "min_fund": biosound.minfund,
